@@ -3,11 +3,27 @@ CREATE DATBASE crud;
 USE crud;
 
 CREATE TABLE paciente(
-id		int AUTO_INCREMENT,
-nome		varchar(150),
-endereco	varchar(250),
-cep		    char(9),
-indicacao	varchar(150),	
-telefone 	char(14),
+id		            int AUTO_INCREMENT,
+nome		        varchar(150),
+endereco	        varchar(250),
+cep		            char(9),
+indicacao	        varchar(150),	
+telefone 	        char(15),
+cpf                 char(14),
+estadoCivil         varchar(20),
+idade               int(2),
+rg                  char(12),
+profissao           varchar(200),
+pressaoAlta         varchar(20),
+fumante             varchar(20),
+bebe                varchar(20),
+alergico            varchar(150),
+tomaRemedio         varchar(150),
+fezCirurgia         varchar(150),
+problemaSaude       varchar(150),
+maxSuperior         varchar(350),
+maxInferior         varchar(350),
+tratamento          varchar(350),
+orcamento           varchar(20),
 PRIMARY KEY (id)
 );
