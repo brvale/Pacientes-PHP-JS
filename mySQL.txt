@@ -1,0 +1,13 @@
+CREATE DATBASE crud;
+
+USE crud;
+
+CREATE TABLE paciente(
+id		int AUTO_INCREMENT,
+nome		varchar(150),
+endereco	varchar(250),
+cep		    char(9),
+indicacao	varchar(150),	
+telefone 	char(14),
+PRIMARY KEY (id)
+);
